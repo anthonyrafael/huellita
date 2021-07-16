@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Thin';
+    font-weight: 100;
+    background-color: #001233;
+}
+
+#marca {
+    font-family: 'Montserrat';
+}
+
+header {
+    width: 100%;
+}
+
+.header .main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+.navbar .brand {
+    display: flex;
+    margin: 20px 70px;
+    color: #DEE2E6;
+}
+
+.navbar .brand .fa-paw {
+    font-size: 2.6em;
+    color: #2382f7;
+}
+
+.navbar .brand h3 {
+    font-size: 1.6em;
+    margin: 7px 7px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: -50px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.btnRegistro {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.btnInicioSesion {
+    list-style: none;
+    margin-right: 50px;
+}
+
+.botonInicioSesion {
+    color: #DEE2E6;
+}
+
+.botonInicioSesion:hover {
+    color: #2382f7;
+}
+
+.botonRegistro {
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    color: #DEE2E6;
+    background-color: #001233;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #2382f7;
+}
+
+.botonRegistro:hover {
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    color: #DEE2E6;
+    background-color: #2382f7;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #2382f7;
+}
+
+.navbar .toggle-menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.navbar .toggle-menu .fa-bars {
+    color: #DEE2E6;
+    font-size: 1.8em;
+    cursor: pointer;
+    display: none;
+}
+
+.container-info {
+    margin-top: 141px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DEE2E6;
+}
+
+i {
+    display: flex;
+    font-size: 7em;
+    text-align: center;
+}
+
+i:hover{
+    color: #2382f7;
+}
+
+h1{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.container-info .table-info {
+    text-align: center;
+}
+
+.container-info h1 {
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    font-size: 2.5em;
+}  
+
+.container-info .img-content {
+    margin-left: 50px;
+}
+
+.textoImportante {
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    color: #2382f7;
+    cursor: pointer;
+}
+
+.infoGeneral {
+    background-color: #2382f7;
+    text-align: center;
+    color: #DEE2E6;
+}
+
+#tituloInfoGeneral{
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    color: #DEE2E6;
+}
+
+#subTituloInfoGeneral {
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Roboto Medium';
+    font-weight: 500;
+    color: #DEE2E6;
+}
+
+.cards {
+    width: 100%;
+    max-width: 1200px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cards .card {
+    background-color: #001233;
+    width: 330px;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 4px #0353a4;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.cards .card h3 {
+    display: flex;
+    margin: 30px 20px 30px 20px ;
+}
+
+footer {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoFooter .brand {
+    display: flex;
+    align-items: center;
+}
+
+footer #logo {
+    font-size: 2.6em;
+    color: #2382f7;
+    margin: 15px;
+}
+
+footer #marca {
+    color: #DEE2E6;
+    font-family: 'Montserrat';
+}
+
+.infoFooter .textFooter {
+    color: #DEE2E6;
+    font-size: 1.2em;
+    margin-right: 20px;
+}
+
+.redesSociales {
+    color: #DEE2E6;
+    padding-right: 3em;
+}
+
+.redesSociales .fa-facebook-f {
+    font-size: 1.2em;
+    color: #DEE2E6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.redesSociales .fa-twitter {
+    font-size: 1.2em;
+    color: #DEE2E6;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.redesSociales .fa-instagram {
+    font-size: 1.2em;
+    color: #DEE2E6;
+    cursor: pointer;
+}
+
+.redesSociales .fa-facebook-f:hover {
+    color: #2382f7;
+}
+
+.redesSociales .fa-twitter:hover {
+    color: #2382f7;
+}
+
+.redesSociales .fa-instagram:hover {
+    color: #2382f7;
+}
+
+
+@media(max-width:690px) {
+
+    .menu {
+        display: none;
+    }
+
+    .navbar .toggle-menu .fa-bars {
+        display: block;
+        margin: -59px 30px
+    }
+
+    .navbar .menu ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background-color: #343A40;
+        position: fixed;
+        margin-top: 10px;
+        padding-right: 10%;
+        transform: translateX(220%);
+        transition: 0.5s ease-in;
+    }
+
+    .navbar .menu .menu-on {
+        transform: translateX(30%);
+    }
+
+    .navbar .menu ul li {
+        margin: 20px;
+        text-transform: uppercase;
+    }
+
+}
+
+@media(max-width:950px) {
+
+    .container-info .img-content {
+        display: none;
+    }
+
+    .container-info {
+        margin-top: 238px;
+    }
+
+    .wave {
+        margin-top: 183px;
+    }
+
+
+}
